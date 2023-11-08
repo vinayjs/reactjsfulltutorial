@@ -9,6 +9,17 @@ function Garage(props) {
                 We have {cars.length} cars in our garage.
             </h2>
         }
+        <ul>
+            {cars.map((car, index) => <Listcars key={index} car={car} />)}
+        </ul>
+        </>
+    )
+}
+
+function Listcars(props) {
+    return (
+        <>
+        <h2> i have a {props.car}</h2>
         </>
     )
 }
