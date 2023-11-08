@@ -21,12 +21,21 @@ class Class extends React.Component {
 class Car extends React.Component{
     constructor(props) {
         super(props);
-        this.brand = this.props.brand;
+        this.state = {
+            model: 'gt',
+            year: 2020,
+            color: 'blue'
+        }
+    }
+    changeColor = () => {
+        this.setState({color: 'red'})
     }
     render() {
         return (
             <>
-            <h2>My car is {this.brand}</h2>
+            <h2>My car is {this.props.brand}</h2>
+            <h3>My car's color is {this.state.color}</h3>
+            <button onClick={this.changeColor}>fav color</button>
             </>
         )
     }
