@@ -1,8 +1,8 @@
 import React from "react";
 
 class Class extends React.Component {
-    constructor(){
-        super();
+    constructor(props){
+        super(props);
         this.state = {color : 'red'}
     }
     render() {

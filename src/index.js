@@ -4,12 +4,14 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Class from './Class';
+import Goal from './Goal';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
     <Class />
+    <Goal isGoal={false} />
   </React.StrictMode>
 );
 
