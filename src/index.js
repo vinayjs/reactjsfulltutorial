@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import Class from './Class';
 import Goal from './Goal';
 import Garage from './Garage';
+import Myform from './Myform';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -14,6 +15,7 @@ root.render(
     <Class />
     <Goal isGoal={true} />
     <Garage cars={['benz', 'tata', 'bmw']} />
+    <Myform />
   </React.StrictMode>
 );
 
