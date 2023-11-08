@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Class from './Class';
 import Goal from './Goal';
+import Garage from './Garage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <App />
     <Class />
     <Goal isGoal={false} />
+    <Garage cars={['benz', 'tata', 'bmw']} />
   </React.StrictMode>
 );
 
