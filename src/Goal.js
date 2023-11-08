@@ -1,9 +1,14 @@
 function Goal(props) {
     const isGoal = props.isGoal;
-    if(isGoal){
-        return <MadeGoal />
-    } 
-    return <MissedGoal/>
+    // if(isGoal){
+    //     return <MadeGoal />
+    // } 
+    // return <MissedGoal/>
+    return (
+        <>
+        {isGoal ? <MadeGoal /> : <MissedGoal />}
+        </>
+    )
 
 }
 

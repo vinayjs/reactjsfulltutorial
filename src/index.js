@@ -12,7 +12,7 @@ root.render(
   <React.StrictMode>
     <App />
     <Class />
-    <Goal isGoal={false} />
+    <Goal isGoal={true} />
     <Garage cars={['benz', 'tata', 'bmw']} />
   </React.StrictMode>
 );
