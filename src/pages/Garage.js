@@ -1,6 +1,6 @@
-function Garage(props) {
-    const cars = props.cars;
-    
+function Garage() {
+    const cars = ['benz', 'bmw', 'ferrari']
+
     return(
         <>
         <h1>Garage</h1>
