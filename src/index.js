@@ -8,6 +8,7 @@ import Goal from './Goal';
 import Garage from './Garage';
 import Myform from './Myform';
 import Formtextarea from './Formtextarea';
+import Dropdownlist from './Dropdownlist';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +19,7 @@ root.render(
     <Garage cars={['benz', 'tata', 'bmw']} />
     <Myform />
     <Formtextarea />
+    <Dropdownlist />
   </React.StrictMode>
 );
 
