@@ -7,6 +7,7 @@ import Class from './Class';
 import Goal from './Goal';
 import Garage from './Garage';
 import Myform from './Myform';
+import Formtextarea from './Formtextarea';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
     <Goal isGoal={true} />
     <Garage cars={['benz', 'tata', 'bmw']} />
     <Myform />
+    <Formtextarea />
   </React.StrictMode>
 );
 
